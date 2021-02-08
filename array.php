@@ -1,0 +1,45 @@
+<?php
+$arr= array(44,55,33,22,11,55,33);
+/*print_r($arr);
+echo "<br>";
+echo var_dump($arr);
+sort($arr);
+echo "<br>";
+print_r($arr);
+rsort($arr);
+echo "<br>";
+print_r($arr);
+asort($arr);
+echo "<br>";
+print_r($arr);
+arsort($arr);
+echo "<br>";
+print_r($arr);
+ksort($arr);
+echo "<br>";
+print_r($arr);
+krsort($arr);
+echo "<br>";
+print_r($arr);
+$ar=array(5=>11,12=>22);
+$ar[]=100;
+$ar["x"]=45;
+echo "<br>";
+echo var_dump($ar);
+echo current($arr)."<br>";
+echo next($arr)."<br>";
+$as= array(0.1=>12,0.2=>33,0.3=>44);
+echo "<br>";
+echo var_dump($as);
+echo count($as);
+echo "<br>";
+print_r(array_count_values($arr));
+echo "<br>";
+print_r(array_keys($arr));
+echo "<br>";
+print_r(array_values($arr));
+echo "<br>";*/
+print_r(array_unique($arr));
+echo "<br>";
+print_r(array_rand($arr,3));
+?>
